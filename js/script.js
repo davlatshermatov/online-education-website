@@ -11,12 +11,12 @@ window.scroll = () => {
 // =================================================================================
 
 let mainVid = document.querySelector(".main-video");
-let videos = document.querySelectorAll(".course-3 .box .video video");
+let videos = document.querySelectorAll(".course-3 .box .video img");
 
-videos.forEach((video) => {
-  video.onclick = () => {
-    let src = video.getAttribute("src");
-    mainVid.querySelector("video").src = src;
+videos.forEach((img) => {
+  img.onclick = () => {
+    let src = img.getAttribute("src");
+    mainVid.querySelector("img").src = src;
     mainVid.classList.add("active");
   };
 });

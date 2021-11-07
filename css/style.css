@@ -361,7 +361,7 @@ section {
   overflow: hidden;
 }
 
-.course-3 .box:hover .video video {
+.course-3 .box:hover .video img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -374,7 +374,7 @@ section {
   position: relative;
 }
 
-.course-3 .box .video video {
+.course-3 .box .video img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -449,7 +449,7 @@ section {
   cursor: pointer;
 }
 
-.main-video video {
+.main-video img {
   width: 80%;
   border: 0.5rem solid #fff;
   border-radius: 0.5rem;
